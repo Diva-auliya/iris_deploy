@@ -15,6 +15,10 @@ from sklearn.datasets import load_iris
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.set_pages_config(page_title="Halaman2")
+st.title("Tes")
+st.sidebar.header("Halaman2")
+
 # Load model
 with open("random_forest_model.pkl", "rb") as file:
     model = pickle.load(file)
